@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rights and Duties Match Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Match Fundamental Rights with Duties</h1>
+    <p>Drag the duties and drop them next to the corresponding rights.</p>
+
+    <div class="game-area">
+      <div class="rights">
+        <h2>Fundamental Rights</h2>
+        <ul>
+          <li id="right1" class="right-item" data-duty="duty1">Right to Equality</li>
+          <li id="right2" class="right-item" data-duty="duty2">Right to Freedom</li>
+          <li id="right3" class="right-item" data-duty="duty4">Right Against Exploitation</li>
+          <li id="right4" class="right-item" data-duty="duty6">Right to Freedom of Religion</li>
+          <li id="right5" class="right-item" data-duty="duty3">Cultural and Educational Rights</li>
+          <li id="right6" class="right-item" data-duty="duty5">Right to Constitutional Remedies</li>
+        </ul>
+      </div>
+
+      <div class="duties">
+        <h2>Fundamental Duties</h2>
+        <ul>
+          <li id="duty1" class="duty-item" draggable="true">Promote harmony and equality</li>
+          <li id="duty2" class="duty-item" draggable="true">Defend the country and render national service</li>
+          <li id="duty3" class="duty-item" draggable="true">Value and preserve cultural heritage</li>
+          <li id="duty4" class="duty-item" draggable="true">Abide by the Constitution and respect its ideals</li>
+          <li id="duty5" class="duty-item" draggable="true">Develop the spirit of inquiry and reform</li>
+          <li id="duty6" class="duty-item" draggable="true">Protect the environment and wildlife</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="result"></div>
+    <button id="reset">Reset Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
